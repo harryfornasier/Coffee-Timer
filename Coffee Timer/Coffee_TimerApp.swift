@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct Coffee_TimerApp: App {
-    @StateObject private var timerManager = TimerManager() // Add this
+    @StateObject private var timerManager = TimerManager()
     
     var body: some Scene {
         MenuBarExtra {
