@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct Coffee_TimerApp: App {
+    @StateObject private var timerManager = TimerManager()
+    
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra {
             ContentView()
+                .environmentObject(timerManager)
+                .frame(width: 300, height: 200)
+        } label: {
+            Image(systemName: timerManager.isTimerActive ? "mug.fill" : "mug")
+                .foregroundColor(timerManager.isTimerActive ? .blue : .primary)
         }
+        .menuBarExtraStyle(.window)
     }
 }
