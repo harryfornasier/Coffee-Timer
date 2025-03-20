@@ -24,14 +24,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A2F2D9B2D8831A300BDFE86 /* Coffee Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A2F2DAC2D8831A400BDFE86 /* Coffee TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A2F2DB62D8831A400BDFE86 /* Coffee TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2F2D9B2D8831A300BDFE86 /* Moka Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moka Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2F2DAC2D8831A400BDFE86 /* Moka TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moka TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2F2DB62D8831A400BDFE86 /* Moka TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moka TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4ACB8CA32D8C1A6000C9802E /* Exceptions for "Coffee Timer" folder in "Moka Timer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4A2F2D9A2D8831A300BDFE86 /* Moka Timer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4A2F2D9D2D8831A300BDFE86 /* Coffee Timer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4ACB8CA32D8C1A6000C9802E /* Exceptions for "Coffee Timer" folder in "Moka Timer" target */,
+			);
 			path = "Coffee Timer";
 			sourceTree = "<group>";
 		};
@@ -85,9 +98,9 @@
 		4A2F2D9C2D8831A300BDFE86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A2F2D9B2D8831A300BDFE86 /* Coffee Timer.app */,
-				4A2F2DAC2D8831A400BDFE86 /* Coffee TimerTests.xctest */,
-				4A2F2DB62D8831A400BDFE86 /* Coffee TimerUITests.xctest */,
+				4A2F2D9B2D8831A300BDFE86 /* Moka Timer.app */,
+				4A2F2DAC2D8831A400BDFE86 /* Moka TimerTests.xctest */,
+				4A2F2DB62D8831A400BDFE86 /* Moka TimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A2F2D9A2D8831A300BDFE86 /* Coffee Timer */ = {
+		4A2F2D9A2D8831A300BDFE86 /* Moka Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A2F2DC02D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Coffee Timer" */;
+			buildConfigurationList = 4A2F2DC02D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Moka Timer" */;
 			buildPhases = (
 				4A2F2D972D8831A300BDFE86 /* Sources */,
 				4A2F2D982D8831A300BDFE86 /* Frameworks */,
@@ -110,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				4A2F2D9D2D8831A300BDFE86 /* Coffee Timer */,
 			);
-			name = "Coffee Timer";
+			name = "Moka Timer";
 			packageProductDependencies = (
 			);
 			productName = "Coffee Timer";
-			productReference = 4A2F2D9B2D8831A300BDFE86 /* Coffee Timer.app */;
+			productReference = 4A2F2D9B2D8831A300BDFE86 /* Moka Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4A2F2DAB2D8831A400BDFE86 /* Coffee TimerTests */ = {
+		4A2F2DAB2D8831A400BDFE86 /* Moka TimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A2F2DC32D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Coffee TimerTests" */;
+			buildConfigurationList = 4A2F2DC32D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Moka TimerTests" */;
 			buildPhases = (
 				4A2F2DA82D8831A400BDFE86 /* Sources */,
 				4A2F2DA92D8831A400BDFE86 /* Frameworks */,
@@ -133,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				4A2F2DAF2D8831A400BDFE86 /* Coffee TimerTests */,
 			);
-			name = "Coffee TimerTests";
+			name = "Moka TimerTests";
 			packageProductDependencies = (
 			);
 			productName = "Coffee TimerTests";
-			productReference = 4A2F2DAC2D8831A400BDFE86 /* Coffee TimerTests.xctest */;
+			productReference = 4A2F2DAC2D8831A400BDFE86 /* Moka TimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4A2F2DB52D8831A400BDFE86 /* Coffee TimerUITests */ = {
+		4A2F2DB52D8831A400BDFE86 /* Moka TimerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A2F2DC62D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Coffee TimerUITests" */;
+			buildConfigurationList = 4A2F2DC62D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Moka TimerUITests" */;
 			buildPhases = (
 				4A2F2DB22D8831A400BDFE86 /* Sources */,
 				4A2F2DB32D8831A400BDFE86 /* Frameworks */,
@@ -156,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				4A2F2DB92D8831A400BDFE86 /* Coffee TimerUITests */,
 			);
-			name = "Coffee TimerUITests";
+			name = "Moka TimerUITests";
 			packageProductDependencies = (
 			);
 			productName = "Coffee TimerUITests";
-			productReference = 4A2F2DB62D8831A400BDFE86 /* Coffee TimerUITests.xctest */;
+			productReference = 4A2F2DB62D8831A400BDFE86 /* Moka TimerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A2F2D962D8831A300BDFE86 /* Build configuration list for PBXProject "Coffee Timer" */;
+			buildConfigurationList = 4A2F2D962D8831A300BDFE86 /* Build configuration list for PBXProject "Moka Timer" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A2F2D9A2D8831A300BDFE86 /* Coffee Timer */,
-				4A2F2DAB2D8831A400BDFE86 /* Coffee TimerTests */,
-				4A2F2DB52D8831A400BDFE86 /* Coffee TimerUITests */,
+				4A2F2D9A2D8831A300BDFE86 /* Moka Timer */,
+				4A2F2DAB2D8831A400BDFE86 /* Moka TimerTests */,
+				4A2F2DB52D8831A400BDFE86 /* Moka TimerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		4A2F2DAE2D8831A400BDFE86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A2F2D9A2D8831A300BDFE86 /* Coffee Timer */;
+			target = 4A2F2D9A2D8831A300BDFE86 /* Moka Timer */;
 			targetProxy = 4A2F2DAD2D8831A400BDFE86 /* PBXContainerItemProxy */;
 		};
 		4A2F2DB82D8831A400BDFE86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A2F2D9A2D8831A300BDFE86 /* Coffee Timer */;
+			target = 4A2F2D9A2D8831A300BDFE86 /* Moka Timer */;
 			targetProxy = 4A2F2DB72D8831A400BDFE86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -460,7 +473,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coffee Timer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moka Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moka Timer";
 			};
 			name = Debug;
 		};
@@ -477,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coffee Timer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moka Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moka Timer";
 			};
 			name = Release;
 		};
@@ -514,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A2F2D962D8831A300BDFE86 /* Build configuration list for PBXProject "Coffee Timer" */ = {
+		4A2F2D962D8831A300BDFE86 /* Build configuration list for PBXProject "Moka Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A2F2DBE2D8831A400BDFE86 /* Debug */,
@@ -523,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A2F2DC02D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Coffee Timer" */ = {
+		4A2F2DC02D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Moka Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A2F2DC12D8831A400BDFE86 /* Debug */,
@@ -532,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A2F2DC32D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Coffee TimerTests" */ = {
+		4A2F2DC32D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Moka TimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A2F2DC42D8831A400BDFE86 /* Debug */,
@@ -541,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A2F2DC62D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Coffee TimerUITests" */ = {
+		4A2F2DC62D8831A400BDFE86 /* Build configuration list for PBXNativeTarget "Moka TimerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A2F2DC72D8831A400BDFE86 /* Debug */,

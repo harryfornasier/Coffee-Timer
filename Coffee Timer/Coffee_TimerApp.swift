@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct Coffee_TimerApp: App {
     @StateObject private var timerManager = TimerManager()
+    @NSApplicationDelegateAdaptor private var appDelegate: AppDelegate
     
     var body: some Scene {
         MenuBarExtra {
@@ -21,5 +22,24 @@ struct Coffee_TimerApp: App {
                 .foregroundColor(timerManager.isTimerActive ? .blue : .primary)
         }
         .menuBarExtraStyle(.window)
+    }
+}
+
+class AppDelegate: NSObject, NSApplicationDelegate {
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        NSApp.setActivationPolicy(.accessory)
+        
+        if let window = NSApp.windows.first {
+            window.styleMask.remove(.resizable)
+            window.styleMask.remove(.closable)
+            window.styleMask.remove(.miniaturizable)
+            window.standardWindowButton(.closeButton)?.isHidden = true
+            window.standardWindowButton(.miniaturizeButton)?.isHidden = true
+            window.standardWindowButton(.zoomButton)?.isHidden = true
+        }
+    }
+    
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        false
     }
 }
