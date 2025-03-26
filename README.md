@@ -8,5 +8,4 @@ How It Works:
 Things I want to add:
 
 - A better looking UI Interface
-- I want to be able to hide the app icon on the dock ✅
 - Animation for the moka pot
